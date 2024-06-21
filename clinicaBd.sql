@@ -1,0 +1,6 @@
+SELECT TOP (1000) [id]
+      ,[paciente_id]
+      ,[data]
+      ,[hora]
+      ,[especialidade]
+  FROM [Clinica].[dbo].[Consultas]
